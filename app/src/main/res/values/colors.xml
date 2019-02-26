@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#273b44</color>
+    <color name="colorPrimaryDark">#273b44</color>
+    <color name="colorAccent">#565656</color>
+    <style name="ListFont" parent="@android:style/Widget.ListView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:typeface">sans</item>
+    </style>
+</resources>

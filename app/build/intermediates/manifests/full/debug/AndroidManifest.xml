@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jayso.wheelersslotbooking"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.jayso.wheelersslotbooking.SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.jayso.wheelersslotbooking.SliderActivity" />
+        <activity android:name="com.example.jayso.wheelersslotbooking.LoginSignupActivity" />
+        <activity android:name="com.example.jayso.wheelersslotbooking.LoginActivity" />
+        <activity android:name="com.example.jayso.wheelersslotbooking.RegistrationActivity" />
+        <activity
+            android:name="com.example.jayso.wheelersslotbooking.MapActivity"
+            android:label="Map"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.jayso.wheelersslotbooking.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.example.jayso.wheelersslotbooking.AboutUsActivity" />
+        <activity android:name="com.example.jayso.wheelersslotbooking.TimelineActivity" />
+        <activity android:name="com.example.jayso.wheelersslotbooking.InvoiceActivity" />
+        <activity android:name="com.example.jayso.wheelersslotbooking.PackageActivity" />
+        <activity android:name="com.example.jayso.wheelersslotbooking.PackageTenDayActivity" />
+        <activity android:name="com.example.jayso.wheelersslotbooking.PackageFifteenDayActivity" />
+        <activity android:name="com.example.jayso.wheelersslotbooking.PackageThirtyDayActivity" />
+        <activity android:name="com.example.jayso.wheelersslotbooking.PackageSixtyDayActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.0" />
+    </application>
+
+</manifest>

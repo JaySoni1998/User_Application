@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jayso.wheelersslotbooking">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EditVehicleActivity"></activity>
+        <activity android:name=".EditProfileActivity" />
+
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBMUT0_lrvDh6g51zPJFzMF8KsRPHc3Hco" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SliderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginSignupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TimelineActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InvoiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PackageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PackageTenDayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PackageFifteenDayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PackageThirtyDayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PackageSixtyDayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookingDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MoreInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotPasswordOTPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Booking2Activity" />
+        <activity android:name=".RegiVehiclePopupActivity" />
+        <activity android:name=".OtherVehiclePopupActivity" />
+    </application>
+
+</manifest>

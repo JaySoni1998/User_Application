@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Wheelers Slot Booking</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="wheelers_slot_booking">Wheelers Slot Booking</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="google_map_API_key">AIzaSyBMUT0_lrvDh6g51zPJFzMF8KsRPHc3Hco</string>
+
+    <string name="err_msg_email">Enter valid email address</string>
+
+
+    <string name="Wheeler_Slot_Booking">ListView</string>
+    <string-array name="array_technology">
+        <item>10 Day Package</item>
+        <item>15 Day Package</item>
+        <item>30 Day Package</item>
+        <item>60 Day Packages</item>
+    </string-array>
+</resources>

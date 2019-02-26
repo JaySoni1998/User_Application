@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b573ff2-b22d-4794-890c-03761dcd25ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Application/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_cardview_v7_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_design_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_mediarouter_v7_25_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_multidex_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_palette_v7_25_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_support_compat_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_support_core_ui_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_support_core_utils_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_support_fragment_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_support_media_compat_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_support_v4_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_support_transition_26_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_android_volley_volley_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_impl_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_appinvite_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_api_phone_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_awareness_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_base_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_framework_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_clearcut_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_drive_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_fitness_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_games_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_gcm_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_identity_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_iid_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_instantapps_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_location_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_nearby_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_panorama_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_places_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_plus_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_safetynet_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_api_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_v4_impl_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_common_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_wallet_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_android_gms_play_services_wearable_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_appindexing_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_auth_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_common_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_config_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_crash_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_database_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_dynamic_links_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_iid_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_storage_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_google_firebase_firebase_storage_common_11_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/libraries/Gradle__com_intuit_sdp_sdp_android_1_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/compat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/compat/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/constraint/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/constraint/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coreui/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coreui/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coreutils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coreutils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/design/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/design/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/fragment/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/fragment/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/graphics/drawable/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/graphics/drawable/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/graphics/drawable/animated/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/graphics/drawable/animated/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/mediacompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/mediacompat/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/transition/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/transition/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v4/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v4/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/appcompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/appcompat/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/mediarouter/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/mediarouter/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/recyclerview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/recyclerview/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/example/jayso/wheelersslotbooking/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/example/jayso/wheelersslotbooking/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/intuit/sdp/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/intuit/sdp/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/build-info/debug/build-info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/compat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/compat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/constraint/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/constraint/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/coreui/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/coreui/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/coreutils/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/coreutils/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/design/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/design/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/fragment/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/fragment/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/animated/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/animated/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/mediacompat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/mediacompat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/transition/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/transition/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/v4/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/v4/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/v7/mediarouter/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/v7/mediarouter/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/AboutUsActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/AboutUsActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$4$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$4$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Booking2Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingDetailsActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingDetailsActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingDetailsActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/BookingDetailsActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/CountryData$Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/CountryData$CountryComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/CountryData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/CustomInfoWindowAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/CustomInfoWindowAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/FeedbackActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/FeedbackActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/ForgetPasswordActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/ForgetPasswordActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/ForgotPasswordOTPActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/ForgotPasswordOTPActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/InvoiceActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/InvoiceActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/LoginActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/LoginActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/LoginActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/LoginActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/LoginActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/LoginActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/LoginActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/LoginSignupActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/LoginSignupActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/MapActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/NewPasswordActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/NewPasswordActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/OtherVehiclePopupActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/OtherVehiclePopupActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/PackageActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/PackageActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/PackageFifteenDayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/PackageFifteenDayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/PackageSixtyDayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/PackageSixtyDayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/PackageTenDayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/PackageTenDayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/PackageThirtyDayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/PackageThirtyDayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/ProfileActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/ProfileActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Profile_User_Fragment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Profile_User_Fragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/Profile_User_Fragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$interpolator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$interpolator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$mipmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/RegistrationActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/SliderActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/SliderActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/SliderAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/SliderAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/TimelineActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/example/jayso/wheelersslotbooking/TimelineActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/intuit/sdp/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental-verifier/debug/com/intuit/sdp/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/Xa0KnR0iUH2jGix1ELs6f7of_3g=" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/Xa0KnR0iUH2jGix1ELs6f7of_3g=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/instant-run-apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/instant-run-apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/mediarouter/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/mediarouter/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/AboutUsActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/AboutUsActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$4$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$4$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Booking2Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingDetailsActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingDetailsActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingDetailsActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/BookingDetailsActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/CountryData$Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/CountryData$CountryComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/CountryData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/CustomInfoWindowAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/CustomInfoWindowAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/FeedbackActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/FeedbackActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/ForgetPasswordActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/ForgetPasswordActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/ForgotPasswordOTPActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/ForgotPasswordOTPActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/InvoiceActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/InvoiceActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/LoginActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/LoginActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/LoginActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/LoginActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/LoginActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/LoginActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/LoginActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/LoginSignupActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/LoginSignupActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/MapActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/NewPasswordActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/NewPasswordActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/OtherVehiclePopupActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/OtherVehiclePopupActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/PackageActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/PackageActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/PackageFifteenDayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/PackageFifteenDayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/PackageSixtyDayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/PackageSixtyDayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/PackageTenDayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/PackageTenDayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/PackageThirtyDayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/PackageThirtyDayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/ProfileActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/ProfileActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Profile_User_Fragment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Profile_User_Fragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/Profile_User_Fragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$interpolator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$interpolator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$mipmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/RegistrationActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/SliderActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/SliderActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/SliderAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/SliderAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/TimelineActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/jayso/wheelersslotbooking/TimelineActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/intuit/sdp/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/intuit/sdp/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_booking.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_booking.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_booking2.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_booking2.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_booking_details.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_booking_details.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_invoice.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_invoice.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_more_info.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_more_info.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_other_vehicle_popup.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_other_vehicle_popup.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_package_fifteen_day.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_package_fifteen_day.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_package_sixty_day.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_package_sixty_day.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_package_ten_day.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_package_ten_day.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_package_thirty_day.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_package_thirty_day.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_profile.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_profile.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_regi_vehicle_popup.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_regi_vehicle_popup.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_registration.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_registration.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_timeline.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_activity_timeline.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_fragment_profile_user.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_fragment_profile_user.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_fragment_profile_vehicle.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_fragment_profile_vehicle.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_slider_adapter.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/layout_slider_adapter.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/menu_activity_map_drawer.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/merged/debug/menu_activity_map_drawer.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/resources/instant-run/debug/resources-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/resources/instant-run/debug/resources-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_0.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_0.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_2.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_2.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_3.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_3.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_4.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_4.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_5.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_7.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_7.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_9.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/740/android/support/constraint/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/740/android/support/constraint/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/740/android/support/v7/recyclerview/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/740/android/support/v7/recyclerview/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/742/android/support/graphics/drawable/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/742/android/support/graphics/drawable/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/742/android/support/transition/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/742/android/support/transition/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/742/com/intuit/sdp/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/742/com/intuit/sdp/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/743/android/support/fragment/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/743/android/support/fragment/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/743/android/support/mediacompat/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/743/android/support/mediacompat/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/743/android/support/v4/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/743/android/support/v4/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/743/android/support/v7/appcompat/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/743/android/support/v7/appcompat/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/743/android/support/v7/mediarouter/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/743/android/support/v7/mediarouter/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/android/support/coreui/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/android/support/coreui/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/AboutUsActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/AboutUsActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$1$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$2$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$4$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$4$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$4$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$4$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$5$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$5$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$6.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$7.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity$7.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Booking2Activity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity$6.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingDetailsActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingDetailsActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingDetailsActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/BookingDetailsActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Constants.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Constants.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/CountryData$Country.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/CountryData$CountryComparator.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/CountryData.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/CustomInfoWindowAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/CustomInfoWindowAdapter.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/FeedbackActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/FeedbackActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/ForgetPasswordActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/ForgetPasswordActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/ForgotPasswordOTPActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/ForgotPasswordOTPActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/InvoiceActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/InvoiceActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/LoginActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/LoginActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/LoginActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/LoginActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/LoginActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/LoginActivity$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/LoginActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/LoginActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/LoginSignupActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/LoginSignupActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$6.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$7.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity$7.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/MapActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/NewPasswordActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/NewPasswordActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/OtherVehiclePopupActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/OtherVehiclePopupActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/PackageActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/PackageActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/PackageFifteenDayActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/PackageFifteenDayActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/PackageSixtyDayActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/PackageSixtyDayActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/PackageTenDayActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/PackageTenDayActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/PackageThirtyDayActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/PackageThirtyDayActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/ProfileActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/ProfileActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Profile_User_Fragment$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Profile_User_Fragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/Profile_User_Fragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$integer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$integer.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$interpolator.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$interpolator.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$menu.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$menu.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$mipmap.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$mipmap.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$string.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$4$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$4$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity$6.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/RegistrationActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/SliderActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/SliderActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/SliderAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/SliderAdapter.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/TimelineActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/744/com/example/jayso/wheelersslotbooking/TimelineActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/745/android/support/coreutils/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/745/android/support/coreutils/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/745/com/google/android/gms/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/745/com/google/android/gms/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/747/android/support/compat/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/747/android/support/compat/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/747/android/support/design/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/747/android/support/design/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/749/android/support/graphics/drawable/animated/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexBuilder/debug/749/android/support/graphics/drawable/animated/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/2/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/3/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/4/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/4/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/7/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/7/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/9/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/dexMerger/debug/9/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/compat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/compat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/constraint/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/constraint/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/coreui/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/coreui/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/coreutils/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/coreutils/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/design/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/design/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/fragment/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/fragment/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/animated/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/animated/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/mediacompat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/mediacompat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/transition/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/transition/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/v4/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/v4/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/v7/mediarouter/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/v7/mediarouter/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/v7/recyclerview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/android/support/v7/recyclerview/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/AboutUsActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/AboutUsActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$4$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$4$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Booking2Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingDetailsActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingDetailsActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingDetailsActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/BookingDetailsActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/CountryData$Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/CountryData$CountryComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/CountryData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/CustomInfoWindowAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/CustomInfoWindowAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/FeedbackActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/FeedbackActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/ForgetPasswordActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/ForgetPasswordActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/ForgotPasswordOTPActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/ForgotPasswordOTPActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/InvoiceActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/InvoiceActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/LoginActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/LoginActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/LoginActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/LoginActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/LoginActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/LoginActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/LoginActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/LoginSignupActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/LoginSignupActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/MapActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/NewPasswordActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/NewPasswordActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/OtherVehiclePopupActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/OtherVehiclePopupActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/PackageActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/PackageActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/PackageFifteenDayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/PackageFifteenDayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/PackageSixtyDayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/PackageSixtyDayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/PackageTenDayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/PackageTenDayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/PackageThirtyDayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/PackageThirtyDayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/ProfileActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/ProfileActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Profile_User_Fragment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Profile_User_Fragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/Profile_User_Fragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$interpolator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$interpolator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$mipmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/RegistrationActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/SliderActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/SliderActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/SliderAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/SliderAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/TimelineActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/example/jayso/wheelersslotbooking/TimelineActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/google/android/gms/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/google/android/gms/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/intuit/sdp/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/intermediates/transforms/instantRun/debug/0/com/intuit/sdp/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/Booking2Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/Booking2Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/BookingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/BookingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/BookingDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/BookingDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/CountryData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/MapActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/MapActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/Profile_User_Fragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/Profile_User_Fragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/RegistrationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/RegistrationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/SliderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/java/com/example/jayso/wheelersslotbooking/SliderAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_booking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_booking.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_booking2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_booking2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_booking_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_booking_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_invoice.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_invoice.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_more_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_more_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_other_vehicle_popup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_other_vehicle_popup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_package_fifteen_day.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_package_fifteen_day.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_package_sixty_day.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_package_sixty_day.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_package_ten_day.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_package_ten_day.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_package_thirty_day.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_package_thirty_day.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_regi_vehicle_popup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_regi_vehicle_popup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_registration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_registration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_timeline.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/activity_timeline.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/fragment_profile_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/fragment_profile_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/fragment_profile_vehicle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/fragment_profile_vehicle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/layout/slider_adapter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/layout/slider_adapter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/app/src/main/res/menu/activity_map_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/app/src/main/res/menu/activity_map_drawer.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="132911336">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about_us.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jayso/wheelersslotbooking/AboutUsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="e#526#675#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
+              <folding>
+                <element signature="e#662#680#0" expanded="true" />
+                <element signature="e#1181#1220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jayso/wheelersslotbooking/SplashScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="21" column="83" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jayso/wheelersslotbooking/FeedbackActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jayso/wheelersslotbooking/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+              <folding>
+                <element signature="e#4120#4362#0" expanded="true" />
+                <element signature="e#4361#4362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="83" column="56" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="56" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jayso/wheelersslotbooking/SplashScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jayso/wheelersslotbooking/LoginActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="835" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Application" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Application" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="Application" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Application" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="wheelersslotbooking" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Application" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Application" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Application" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoApplication" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b573ff2-b22d-4794-890c-03761dcd25ac" name="Default Changelist" comment="" />
+      <created>1550559203552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550559203552</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.18724832" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.011730205" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Preview" weight="0.28389263" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about_us.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jayso/wheelersslotbooking/AboutUsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#526#675#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jayso/wheelersslotbooking/FeedbackActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jayso/wheelersslotbooking/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="83" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
+          <folding>
+            <element signature="e#662#680#0" expanded="true" />
+            <element signature="e#1181#1220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="83" column="56" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="56" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jayso/wheelersslotbooking/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+          <folding>
+            <element signature="e#4120#4362#0" expanded="true" />
+            <element signature="e#4361#4362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
