@@ -25,7 +25,7 @@ public class SliderAdapter extends PagerAdapter
     Context context;
     LayoutInflater inflater;
     public int[] imgarray = {R.drawable.img_1,R.drawable.img_2,R.drawable.img_3,R.drawable.img_4,R.drawable.img_5};
-    public String[] titleArray = {"Here, is an safe parking!!!","Information Required!!!","Unique Facalities!!!","Pay Charges Offline!!!","Extra Feature of Cancel Booking!!!"};
+    public String[] titleArray = {"Here, is a safe parking!!!","Information Required!!!","Unique Facalities!!!","Pay Charges Offline!!!","Extra Feature of Cancel Booking!!!"};
     public String[] descarray = {"Our Wheelers Slot Booking System providing parking place very easily to the customer from home.",
             "For registration user will have to fill the basic information. After they can search their location and see capacity of the particular place",
             "User can park multiple vehicles like 2, 3 and 4 wheels. They can add multiple vehicles from their single account.",

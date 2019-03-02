@@ -7,6 +7,11 @@ public class Constants {
     public static final String Vehicle_details = ROOT_URL + "UserVehicledetails.php";
     public static final String User_feedback = ROOT_URL + "Feedback.php";
 
+    public static String KEY_Vehicle_No = "V_No";
+    public static String KEY_V_Company = "V_Company";
+    public static String KEY_V_Model = "V_Model";
+    public static String KEY_V_Type = "V_Type";
+    public static String KEY_Owner_Type= "Owner_Type";
 }
 
 

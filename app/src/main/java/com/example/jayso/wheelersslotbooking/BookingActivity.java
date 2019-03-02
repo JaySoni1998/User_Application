@@ -36,7 +36,7 @@ import java.util.Map;
 public class BookingActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     private EditText VehicleNo, VehicleCompany, VehicleModel;
-    private Spinner vehicle_type;
+    private Spinner vehicle_type,v_type_spinner;
     private RadioGroup rgOwnerType;
 
     public String v_no = "";
@@ -62,11 +62,11 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
         vehicle_type = findViewById(R.id.v_type_spinner);
         rgOwnerType = findViewById(R.id.rgOwnerType);
 
-        final Spinner v_type = findViewById(R.id.v_type_spinner);
-        v_type.setOnItemSelectedListener(this);
+        v_type_spinner = findViewById(R.id.v_type_spinner);
+        v_type_spinner.setOnItemSelectedListener(this);
         ArrayAdapter a = new ArrayAdapter(this, android.R.layout.simple_spinner_item, vh_type);
         a.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        v_type.setAdapter(a);
+        v_type_spinner.setAdapter(a);
         rgOwnerType.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
@@ -199,7 +199,7 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
                 params.put("V_No", v_no);
                 params.put("V_Company", v_company);
                 params.put("V_Model",v_model);
-                params.put("V_Type", v_type);
+                params.put("V_Type", v_type_spinner.getSelectedItem().toString());
                 params.put("Owner_Type",owner_type);
 
                 Log.d("V_No",v_no);

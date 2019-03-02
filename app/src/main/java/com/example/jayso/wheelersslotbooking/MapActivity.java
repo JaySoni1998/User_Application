@@ -9,6 +9,7 @@ import android.bluetooth.BluetoothClass;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
@@ -468,8 +469,12 @@ public class MapActivity extends AppCompatActivity
             Intent it = new Intent(MapActivity.this, AboutUsActivity.class);
             startActivity(it);
         } else if (id == R.id.nav_signout) {
-            Intent it = new Intent(MapActivity.this, LoginSignupActivity.class);
-            startActivity(it);
+            if(SharedPrefManager.getInstance(MapActivity.this).logout()){
+                Toast.makeText(this, "LogOut", Toast.LENGTH_SHORT).show();
+                AppPref.setValue("IS_LOGIN", "false", MapActivity.this);
+                startActivity(new Intent(MapActivity.this,LoginSignupActivity.class));
+                //return;
+            }
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

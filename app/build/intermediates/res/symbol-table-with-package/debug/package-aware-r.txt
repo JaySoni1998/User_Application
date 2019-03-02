@@ -2444,6 +2444,11 @@ id tv_u_email
 id tv_u_gender
 id tv_u_id
 id tv_u_name
+id tv_v_company
+id tv_v_model
+id tv_v_no
+id tv_v_owner_type
+id tv_v_type
 id txtdesc
 id txttitle
 id uniform

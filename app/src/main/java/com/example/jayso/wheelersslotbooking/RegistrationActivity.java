@@ -262,6 +262,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                 params.put("Password", pass);
                 params.put("Cont_No", contact);
                 return params;
+
             }
         };
         RequestHandler.getInstance(this).addToRequestQueue(stringRequest);

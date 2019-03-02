@@ -28,7 +28,13 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
+import static com.example.jayso.wheelersslotbooking.Constants.KEY_Owner_Type;
+import static com.example.jayso.wheelersslotbooking.Constants.KEY_V_Company;
+import static com.example.jayso.wheelersslotbooking.Constants.KEY_V_Model;
+import static com.example.jayso.wheelersslotbooking.Constants.KEY_V_Type;
+import static com.example.jayso.wheelersslotbooking.Constants.KEY_Vehicle_No;
+
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText emailEditText;
     private EditText passEditText;
@@ -38,8 +44,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private static final String KEY_PASSWORD = "Password";
     private static final String KEY_USER_F_NAME = "U_FirstName";
     private static final String KEY_USER_L_NAME = "U_LastName";
-    private static final String KEY_GENDER = "Gender";
-    private static final String KEY_CONTACT = "Contact";
+    private static final String KEY_GENDER = "U_Gender";
+    private static final String KEY_CONTACT = "Cont_No";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +57,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         emailEditText = findViewById(R.id.et_login_email);
         passEditText = findViewById(R.id.et_login_pass);
         btnLogin = findViewById(R.id.btn_login_Page);
-
 
 
         findViewById(R.id.btn_login_Page).setOnClickListener(new View.OnClickListener() {
@@ -83,12 +88,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     View snackbarView = snackbar.getView();
                     snackbarView.setBackgroundColor(Color.parseColor("#FF0000"));
                     snackbar.show();
-                } else if(SharedPrefManager.getInstance(LoginActivity.this).isLoggedIn()){
+                } else if (SharedPrefManager.getInstance(LoginActivity.this).isLoggedIn()) {
                     Toast.makeText(LoginActivity.this, "Success", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(LoginActivity.this,MapActivity.class));
+                    startActivity(new Intent(LoginActivity.this, MapActivity.class));
                     return;
-                }
-                else {
+                } else {
                     userLogin();
                 }
             }
@@ -114,7 +118,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         });
     }
 
-    private  void userLogin(){
+    private void userLogin() {
 
         final String email = emailEditText.getText().toString();
         final String pass = passEditText.getText().toString();
@@ -125,40 +129,41 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        Log.d("response",response);
-                        try{
+                        Log.d("response", response);
+                        try {
                             JSONObject obj = new JSONObject(response);
-                            if(!obj.getBoolean("error")){
+                            if (!obj.getBoolean("error")) {
                                 JSONObject userData = obj.getJSONObject("user");
-                                Toast.makeText(LoginActivity.this, "User login success", Toast.LENGTH_SHORT).show();
-//                                SharedPrefManager.getInstance(getApplicationContext())
-//                                        .UserLogin(
-//                                                userData.getInt(("U_ID")),
-//                                                userData.getString("U_FirstName"),
-//                                                userData.getString("U_LastName"),
-//                                                userData.getString("Email_ID"),
-//                                                userData.getString("Password"),
-//                                                userData.getString("Gender"),
-//                                                userData.getString("Contact")
-//                                        );
-                                SharedPreferences userLogin = getApplicationContext().getSharedPreferences("mysharedpref12",getApplicationContext().MODE_PRIVATE);
+                                Toast.makeText(LoginActivity.this, "User Login Success", Toast.LENGTH_SHORT).show();
+//
+                                AppPref.setValue("IS_LOGIN", "true", LoginActivity.this);
+
+                                SharedPreferences userLogin = getApplicationContext().getSharedPreferences("mysharedpref12", getApplicationContext().MODE_PRIVATE);
                                 SharedPreferences.Editor editor = userLogin.edit();
+
                                 editor.putInt(KEY_USER_ID, userData.getInt(("U_ID")));
                                 editor.putString(KEY_USER_EMAIL, userData.getString("Email_ID"));
                                 editor.putString(KEY_USER_F_NAME, userData.getString("U_FirstName"));
                                 editor.putString(KEY_USER_L_NAME, userData.getString("U_LastName"));
                                 editor.putString(KEY_PASSWORD, userData.getString("Password"));
-                                editor.putString(KEY_GENDER, userData.getString("Gender"));
-                                editor.putString(KEY_CONTACT,userData.getString("Contact_No"));
+                                editor.putString(KEY_GENDER, userData.getString("U_Gender"));
+                                editor.putString(KEY_CONTACT, userData.getString("Cont_No"));
+
+                                JSONObject vehicleDetails = obj.getJSONObject("VehicleDetails");
+                                editor.putString(KEY_Vehicle_No, vehicleDetails.getString("V_No"));
+                                editor.putString(KEY_V_Company, vehicleDetails.getString("V_Company"));
+                                editor.putString(KEY_V_Model, vehicleDetails.getString("V_Model"));
+                                editor.putString(KEY_V_Type, vehicleDetails.getString("V_Type"));
+                                editor.putString(KEY_Owner_Type, vehicleDetails.getString("Owner_Type"));
+
                                 editor.apply();
                                 editor.commit();
 
 
-
-                                startActivity(new Intent(getApplicationContext(),MapActivity.class));
+                                startActivity(new Intent(getApplicationContext(), MapActivity.class));
 
 //                                finish();
-                            }else {
+                            } else {
                                 Toast.makeText(
                                         getApplicationContext(),
                                         obj.getString("message"),
@@ -166,8 +171,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                                 ).show();
 
                             }
-                        }catch (JSONException e){
+                        } catch (JSONException e) {
                             e.printStackTrace();
+                            Log.d("Error", response);
                             Toast.makeText(LoginActivity.this, "json error", Toast.LENGTH_SHORT).show();
                         }
 
@@ -179,20 +185,21 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         Toast.makeText(LoginActivity.this, "error", Toast.LENGTH_SHORT).show();
                     }
                 }
-        ){
+        ) {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("Email_ID",email);
-                params.put("Password",pass);
+                params.put("Email_ID", email);
+                params.put("Password", pass);
                 return params;
             }
         };
         RequestHandler.getInstance(this).addToRequestQueue(stringRequest);
     }
+
     @Override
-    public void onClick(View view){
-        if(view == btnLogin){
+    public void onClick(View view) {
+        if (view == btnLogin) {
             userLogin();
         }
     }

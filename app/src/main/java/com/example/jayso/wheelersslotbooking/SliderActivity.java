@@ -3,6 +3,7 @@ package com.example.jayso.wheelersslotbooking;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -177,9 +178,19 @@ public class SliderActivity extends AppCompatActivity {
         Btn_Skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                    ApplicationPreferences.setValue("START_PAGE", "0", StartScreen_Activity.this);
                 Intent i = new Intent(context, LoginSignupActivity.class);
-//                    ApplicationPreferences.setValue("From_Shopping", "0", StartScreen_Activity.this);
+
+
+                String val = "false";
+                try {
+                    val =  AppPref.getValue("IS_LOGIN", "false", SliderActivity.this);
+                    if (val.equalsIgnoreCase("true")) {
+                        i = new Intent(context, MapActivity.class);
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
                 startActivity(i);
                 finish();
             }

@@ -862,11 +862,11 @@ public final class R {
         public static final int title_template = 0x7f09018b;
         public static final int top = 0x7f09018e;
         public static final int topPanel = 0x7f09018f;
-        public static final int up = 0x7f09019e;
-        public static final int useLogo = 0x7f0901a0;
-        public static final int volume_item_container = 0x7f0901a6;
-        public static final int withText = 0x7f0901a8;
-        public static final int wrap_content = 0x7f0901aa;
+        public static final int up = 0x7f0901a3;
+        public static final int useLogo = 0x7f0901a5;
+        public static final int volume_item_container = 0x7f0901ab;
+        public static final int withText = 0x7f0901ad;
+        public static final int wrap_content = 0x7f0901af;
     }
     public static final class integer {
         private integer() {}

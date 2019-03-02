@@ -471,9 +471,9 @@ public final class R {
         public static final int thing_proto = 0x7f090187;
         public static final int title_view = 0x7f09018c;
         public static final int toolbar = 0x7f09018d;
-        public static final int url = 0x7f09019f;
-        public static final int wide = 0x7f0901a7;
-        public static final int wrap_content = 0x7f0901aa;
+        public static final int url = 0x7f0901a4;
+        public static final int wide = 0x7f0901ac;
+        public static final int wrap_content = 0x7f0901af;
     }
     public static final class integer {
         private integer() {}

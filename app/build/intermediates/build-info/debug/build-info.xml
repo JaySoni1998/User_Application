@@ -6,7 +6,7 @@
     density="300dpi"
     format="10"
     plugin-version="3.3.0"
-    timestamp="1550393342063"
+    timestamp="1551553295778"
     token="7049577764124951874"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -65,7 +65,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1550393342063"
+        timestamp="1551553295778"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\Wheelers Slot Booking System\Application\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
