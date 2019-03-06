@@ -62,11 +62,8 @@ public class SharedPrefManager {
         editor.putString(KEY_Owner_Type, Owner_Type);
         editor.putString(KEY_V_Type, V_Type);
 
-
         editor.apply();
         return true;
-
-
     }
 
     public boolean isLoggedIn() {

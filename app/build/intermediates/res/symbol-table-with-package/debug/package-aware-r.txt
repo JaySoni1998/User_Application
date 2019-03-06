@@ -1938,6 +1938,7 @@ drawable left_btn
 drawable location
 drawable login_signup
 drawable logo
+drawable map_marker
 drawable mr_button_connected_dark
 drawable mr_button_connected_light
 drawable mr_button_connecting_dark

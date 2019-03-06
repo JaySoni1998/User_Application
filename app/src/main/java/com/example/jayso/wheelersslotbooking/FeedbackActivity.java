@@ -58,7 +58,7 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
 
 
                 if (review.length() == 0) {
-                    Toast.makeText(FeedbackActivity.this, "Please Insert First Name", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(FeedbackActivity.this, "Please Insert Your Feedback", Toast.LENGTH_SHORT).show();
                 } else {
                     User_feedback();
                 }
@@ -79,7 +79,7 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
     private void User_feedback() {
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST,
-                Constants.UserRegi,
+                Constants.feedback,
                 new com.android.volley.Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
@@ -89,19 +89,6 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
                             Toast.makeText(FeedbackActivity.this, "Success", Toast.LENGTH_SHORT).show();
                             JSONObject jsonObject = new JSONObject(response);
                             Toast.makeText(getApplicationContext(), jsonObject.getString("message"), Toast.LENGTH_LONG).show();
-
-                           /* AlertDialog alertDialog = new AlertDialog.Builder(RegistrationActivity.this).create();
-                            alertDialog.setTitle("Information");
-                            alertDialog.setMessage("Registration Successfully!!!");
-                            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                                    new DialogInterface.OnClickListener() {
-                                        public void onClick(DialogInterface dialog, int which) {
-                                            dialog.dismiss();
-                                            startActivity(new Intent(RegistrationActivity.this, MapActivity.class));
-                                            finish();
-                                        }
-                                    });
-                            alertDialog.show();*/
 
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -113,21 +100,20 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-
                         Toast.makeText(getApplicationContext(), error.getMessage(), Toast.LENGTH_LONG).show();
                     }
                 }) {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("U_FirstName",review );
+                params.put("Review",review );
+
+                Log.d("Feedback",review);
                 return params;
             }
 
         };
         RequestHandler.getInstance(this).addToRequestQueue(stringRequest);
-
-
     }
 
     @Override

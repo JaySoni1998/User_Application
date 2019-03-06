@@ -1,8 +1,10 @@
 package com.example.jayso.wheelersslotbooking;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
@@ -18,6 +20,7 @@ import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -36,8 +39,11 @@ import java.util.Map;
 public class BookingActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     private EditText VehicleNo, VehicleCompany, VehicleModel;
-    private Spinner vehicle_type,v_type_spinner;
+    private Spinner vehicle_type, v_type_spinner;
     private RadioGroup rgOwnerType;
+
+    public static final String KEY_USER_ID = "U_ID";
+    public TextView u_id;
 
     public String v_no = "";
     public String v_company = "";
@@ -45,9 +51,9 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
     public String v_type = "";
     public String owner_type = "";
 
+    int user_id = 0;
+
     String[] vh_type = {"2 Wheelers", "3 Wheelers", "4 Wheelers"};
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +61,16 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
         setContentView(R.layout.activity_booking);
 
         hideSoftKeyboard();
+
+        try {
+
+            SharedPreferences userLogin = getApplicationContext().getSharedPreferences("mysharedpref12", getApplicationContext().MODE_PRIVATE);
+            user_id = userLogin.getInt(KEY_USER_ID, 0);
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         VehicleNo = findViewById(R.id.et_vehicle_no);
         VehicleCompany = findViewById(R.id.et_vehicle_company);
@@ -85,8 +101,6 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
                 v_model = VehicleModel.getText().toString();
 
 
-
-
                 if (v_no.length() == 0) {
                     Snackbar snackbar = Snackbar.make(findViewById(R.id.Vehicle_Booking_Page), "Please Insert Vehicle Number", Snackbar.LENGTH_LONG);
                     View snackbarView = snackbar.getView();
@@ -113,6 +127,7 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
                 }
             }
         });
+
 
         Button btnback = findViewById(R.id.btn_back);
         btnback.setOnClickListener(new View.OnClickListener() {
@@ -149,6 +164,7 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
 
     }
 
+
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
@@ -163,6 +179,7 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
     }
 
+
     private void UserVehicledetails() {
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST,
@@ -176,7 +193,7 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
                             Toast.makeText(BookingActivity.this, "Success", Toast.LENGTH_SHORT).show();
                             JSONObject jsonObject = new JSONObject(response);
                             Toast.makeText(getApplicationContext(), jsonObject.getString("message"), Toast.LENGTH_LONG).show();
-                             startActivity(new Intent(BookingActivity.this, Booking2Activity.class));
+                            startActivity(new Intent(BookingActivity.this, Booking2Activity.class));
 
 
                         } catch (JSONException e) {
@@ -198,23 +215,14 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
                 Map<String, String> params = new HashMap<>();
                 params.put("V_No", v_no);
                 params.put("V_Company", v_company);
-                params.put("V_Model",v_model);
+                params.put("V_Model", v_model);
                 params.put("V_Type", v_type_spinner.getSelectedItem().toString());
-                params.put("Owner_Type",owner_type);
-
-                Log.d("V_No",v_no);
-                Log.d("V_Company",v_company);
-                Log.d("V_Model",v_model);
-                Log.d("V_Type",v_type);
-                Log.d("Owner_Type",owner_type);
-
+                params.put("Owner_Type", owner_type);
+                params.put("U_ID", ""+user_id);
 
                 return params;
             }
-
         };
         RequestHandler.getInstance(this).addToRequestQueue(stringRequest);
-
-
     }
 }

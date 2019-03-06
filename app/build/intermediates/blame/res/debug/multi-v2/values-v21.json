@@ -4,26 +4,7 @@
             "outputFile": "E:\\Wheelers Slot Booking System\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-11.0.0.aar\\d2aa91827294e3aeb5d5754c7d44af18\\res\\values-v21\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "172",
-                        "endLines": "5",
-                        "endColumns": "8",
-                        "endOffsets": "297"
-                    },
-                    "to": {
-                        "startLines": "299",
-                        "startColumns": "4",
-                        "startOffsets": "21921",
-                        "endLines": "300",
-                        "endColumns": "8",
-                        "endOffsets": "22046"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\f03e98d79abf9d1393c3edb854f68c5c\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\59a89b6feb2cffeba9251a7f6c701d5c\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247,259,260,261,264,267,268,271,272",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,26 +23,45 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.0.aar\\7a208c44782f9e6f2109131801c7d13a\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-11.0.0.aar\\d3f8f4aa71af27a498ff03b04246e58e\\res\\values-v21\\values.xml",
                     "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "172",
+                        "endLines": "5",
+                        "endColumns": "8",
+                        "endOffsets": "297"
                     },
                     "to": {
-                        "startLines": "285,288,292,296",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "21001,21169,21458,21754",
-                        "endLines": "287,290,294,298",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "21164,21327,21621,21916"
+                        "startLines": "299",
+                        "startColumns": "4",
+                        "startOffsets": "21921",
+                        "endLines": "300",
+                        "endColumns": "8",
+                        "endOffsets": "22046"
                     }
                 },
                 {
-                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.0.aar\\034d52beabe178079c8c9455d4fefc97\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.0.aar\\5c4f78d344a04af29f3c501f0af321c5\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,266",
+                        "endLines": "4,5",
+                        "endColumns": "12,96",
+                        "endOffsets": "261,358"
+                    },
+                    "to": {
+                        "startLines": "164,228",
+                        "startColumns": "4,4",
+                        "startOffsets": "12577,17127",
+                        "endLines": "166,228",
+                        "endColumns": "12,96",
+                        "endOffsets": "12783,17219"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.0.aar\\a676d0ffe851437ac8dab636e5f46153\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -80,22 +80,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.0.aar\\16af83d7fe19ff9cd0a8ea040652ee3f\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.0.aar\\5e6bf5fbd68c579f1b0545aa4abe1165\\res\\values-v21\\values-v21.xml",
                     "from": {
-                        "startLines": "2,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,266",
-                        "endLines": "4,5",
-                        "endColumns": "12,96",
-                        "endOffsets": "261,358"
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
                     },
                     "to": {
-                        "startLines": "164,228",
-                        "startColumns": "4,4",
-                        "startOffsets": "12577,17127",
-                        "endLines": "166,228",
-                        "endColumns": "12,96",
-                        "endOffsets": "12783,17219"
+                        "startLines": "285,288,292,296",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "21001,21169,21458,21754",
+                        "endLines": "287,290,294,298",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "21164,21327,21621,21916"
                     }
                 }
             ]

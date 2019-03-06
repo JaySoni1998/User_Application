@@ -136,7 +136,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                                 JSONObject userData = obj.getJSONObject("user");
                                 Toast.makeText(LoginActivity.this, "User Login Success", Toast.LENGTH_SHORT).show();
 //
-                                AppPref.setValue("IS_LOGIN", "true", LoginActivity.this);
+                                AppPref.setValue("IS_LOGIN", "true",getApplicationContext());
 
                                 SharedPreferences userLogin = getApplicationContext().getSharedPreferences("mysharedpref12", getApplicationContext().MODE_PRIVATE);
                                 SharedPreferences.Editor editor = userLogin.edit();
@@ -149,6 +149,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                                 editor.putString(KEY_GENDER, userData.getString("U_Gender"));
                                 editor.putString(KEY_CONTACT, userData.getString("Cont_No"));
 
+                                try{
                                 JSONObject vehicleDetails = obj.getJSONObject("VehicleDetails");
                                 editor.putString(KEY_Vehicle_No, vehicleDetails.getString("V_No"));
                                 editor.putString(KEY_V_Company, vehicleDetails.getString("V_Company"));
@@ -158,11 +159,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
                                 editor.apply();
                                 editor.commit();
-
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
 
                                 startActivity(new Intent(getApplicationContext(), MapActivity.class));
+                                finish();
 
-//                                finish();
                             } else {
                                 Toast.makeText(
                                         getApplicationContext(),

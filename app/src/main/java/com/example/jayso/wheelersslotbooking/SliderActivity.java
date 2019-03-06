@@ -178,10 +178,9 @@ public class SliderActivity extends AppCompatActivity {
         Btn_Skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent i = new Intent(context, LoginSignupActivity.class);
-
-
-                String val = "false";
+                /*String val = "false";
                 try {
                     val =  AppPref.getValue("IS_LOGIN", "false", SliderActivity.this);
                     if (val.equalsIgnoreCase("true")) {
@@ -189,17 +188,20 @@ public class SliderActivity extends AppCompatActivity {
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
-                }
+                }*/
 
                 startActivity(i);
                 finish();
             }
         });
 
+
 //        } else {
 //            Log.e("", "img null");
 //        }
     }
+
+
 
     @Override
     public void onBackPressed() {

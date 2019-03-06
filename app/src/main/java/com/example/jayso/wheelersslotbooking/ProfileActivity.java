@@ -2,8 +2,10 @@ package com.example.jayso.wheelersslotbooking;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -24,6 +26,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProfileActivity extends AppCompatActivity {
+
+    private static final String KEY_USER_F_NAME = "U_FirstName";
+
+    private TextView u_name;
 
     Dialog myDialog;
 

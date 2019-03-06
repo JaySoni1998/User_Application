@@ -52,7 +52,7 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
     private LinearLayout linearLayoutBooking;
     private TextView start_time_picker, end_time_picker;
 
-    public String startingTime= "";
+    public String startingTime = "";
     public String endTime = "";
 
     @Override
@@ -79,7 +79,18 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
                     @Override
                     public void onTimeSet(TimePicker timePicker, int selectedHour, int selectedMiniute) {
 
-                        starttime.setText(selectedHour + ":" + selectedMiniute);
+                        Calendar calendar = Calendar.getInstance();
+                        calendar.set(Calendar.MINUTE, selectedMiniute);
+                        calendar.set(Calendar.HOUR, selectedHour);
+                        String hh = "" + calendar.get(Calendar.HOUR);
+                        if (hh.equals("0") || hh.equals("00")) {
+                            hh = "12";
+                        }
+                        String time = setZero(hh) + ":" + setZero("" + calendar.get(Calendar.MINUTE)) + " "
+                                + ((calendar.get(Calendar.AM_PM) == Calendar.AM) ? "PM" : "AM");
+                        starttime.setText(time);
+//                        starttime.setText(selectedHour + ":" + selectedMiniute+timePicker);
+                        startingTime = starttime.getText().toString();
                         Toast.makeText(getApplicationContext(), selectedHour + "  " + selectedMiniute, Toast.LENGTH_SHORT).show();
                     }
                 }, hour, minute, false);
@@ -102,7 +113,19 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
                     @Override
                     public void onTimeSet(TimePicker timePicker, int selectedHour, int selectedMiniute) {
 
-                        endtime.setText(selectedHour + ":" + selectedMiniute);
+                        Calendar calendar = Calendar.getInstance();
+                        calendar.set(Calendar.MINUTE, selectedMiniute);
+                        calendar.set(Calendar.HOUR, selectedHour);
+                        String hh = "" + calendar.get(Calendar.HOUR);
+                        if (hh.equals("0") || hh.equals("00")) {
+                            hh = "12";
+                        }
+                        String time = setZero(hh) + ":" + setZero("" + calendar.get(Calendar.MINUTE)) + " "
+                                + ((calendar.get(Calendar.AM_PM) == Calendar.AM) ? "PM" : "AM");
+
+                        endtime.setText(time);
+//                        endtime.setText(selectedHour + ":" + selectedMiniute);
+                        endTime = endtime.getText().toString();
                         Toast.makeText(getApplicationContext(), selectedHour + "  " + selectedMiniute, Toast.LENGTH_SHORT).show();
                     }
                 }, hour, minute, false);
@@ -111,8 +134,6 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
             }
         });
 
-        startingTime = start_time_picker.getText().toString();
-        endTime = end_time_picker.getText().toString();
 
         //dialog_popup
         myDialog = new Dialog(this);
@@ -156,35 +177,22 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
             @Override
             public void onClick(View v) {
 
-                /*if (start_time_picker.length() == ) {
-                    Snackbar snackbar = Snackbar.make(findViewById(R.id.Vehicle_Booking_Page), "Please Insert Vehicle Number", Snackbar.LENGTH_LONG);
-                    View snackbarView = snackbar.getView();
-                    snackbarView.setBackgroundColor(Color.parseColor("#FF0000"));
-                    snackbar.show();
-                } else if (v_company.length() == 0) {
-                    Snackbar snackbar = Snackbar.make(findViewById(R.id.Vehicle_Booking_Page), "Please Insert Vehicle Company", Snackbar.LENGTH_LONG);
-                    View snackbarView = snackbar.getView();
-                    snackbarView.setBackgroundColor(Color.parseColor("#FF0000"));
-                    snackbar.show();*/
 
                 ParkingTime();
-                AlertDialog alertDialog = new AlertDialog.Builder(Booking2Activity.this).create();
-                alertDialog.setTitle("Infomation");
-                alertDialog.setMessage("Booking Successfully!");
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.dismiss();
-                                Intent it = new Intent(Booking2Activity.this, MapActivity.class);
-                                startActivity(it);
-                                finish();
-                            }
-                        });
-                alertDialog.show();
+
 
             }
         });
 
+    }
+
+
+    public String setZero(String val) {
+
+        if (val.length() == 1)
+            return "0" + val;
+
+        return val;
     }
 
     public void ShowPopupRegi(View v) {
@@ -247,9 +255,11 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
     }
 
     private void ParkingTime() {
-
+//        Log.d("In_Time",startingTime);
+//        Log.d("Out_Time",endTime);
+        Toast.makeText(this, startingTime, Toast.LENGTH_SHORT).show();
         StringRequest stringRequest = new StringRequest(Request.Method.POST,
-                Constants.Vehicle_details,
+                Constants.parking_charges,
                 new com.android.volley.Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
@@ -259,8 +269,20 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
                             Toast.makeText(Booking2Activity.this, "Success", Toast.LENGTH_SHORT).show();
                             JSONObject jsonObject = new JSONObject(response);
                             Toast.makeText(getApplicationContext(), jsonObject.getString("message"), Toast.LENGTH_LONG).show();
-                            startActivity(new Intent(Booking2Activity.this, Booking2Activity.class));
-
+//                            startActivity(new Intent(Booking2Activity.this, Booking2Activity.class));
+                            AlertDialog alertDialog = new AlertDialog.Builder(Booking2Activity.this).create();
+                            alertDialog.setTitle("Infomation");
+                            alertDialog.setMessage("Booking Successfully!");
+                            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                                    new DialogInterface.OnClickListener() {
+                                        public void onClick(DialogInterface dialog, int which) {
+                                            dialog.dismiss();
+                                            Intent it = new Intent(Booking2Activity.this, MapActivity.class);
+                                            startActivity(it);
+                                            finish();
+                                        }
+                                    });
+                            alertDialog.show();
 
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -282,8 +304,8 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
                 params.put("In_Time", startingTime);
                 params.put("Out_Time", endTime);
 
-                Log.d("In_Time",startingTime);
-                Log.d("Out_Time",endTime);
+                Log.d("In_Time", startingTime);
+                Log.d("Out_Time", endTime);
 
 
                 return params;

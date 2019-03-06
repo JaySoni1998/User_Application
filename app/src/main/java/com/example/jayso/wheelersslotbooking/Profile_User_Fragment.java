@@ -19,6 +19,7 @@ public class Profile_User_Fragment extends Fragment{
     private static final String KEY_USER_ID = "U_ID";
     private static final String KEY_USER_EMAIL = "Email_ID";
     private static final String KEY_USER_F_NAME = "U_FirstName";
+    private static final String KEY_USER_L_NAME = "U_LastName";
     private static final String KEY_GENDER = "U_Gender";
     private static final String KEY_CONTACT = "Cont_No";
     private TextView u_id, u_name;
@@ -39,9 +40,6 @@ public class Profile_User_Fragment extends Fragment{
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_profile_user, container, false);
-
-
-
     }
 
     @Override
@@ -55,8 +53,9 @@ public class Profile_User_Fragment extends Fragment{
         u_id.setText(""+id);
 
         u_name = view.findViewById(R.id.tv_u_name);
-        String fname = userLogin.getString(KEY_USER_F_NAME,null);
-        u_name.setText(fname);
+        String fname = userLogin.getString(KEY_USER_F_NAME ,null);
+        String lname = userLogin.getString(KEY_USER_L_NAME ,null);
+        u_name.setText(fname +" "+ lname);
 
         gender = view.findViewById(R.id.tv_u_gender);
         String Gender = userLogin.getString(KEY_GENDER,null);

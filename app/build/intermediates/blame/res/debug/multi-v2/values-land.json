@@ -4,34 +4,7 @@
             "outputFile": "E:\\Wheelers Slot Booking System\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\f03e98d79abf9d1393c3edb854f68c5c\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-11.0.0.aar\\0a5a1479efbbae8793b1b6996d80cdd9\\res\\values-land\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9",
-                        "startColumns": "0,0,0,0,0,0",
-                        "startOffsets": "183,264,344,414,483,578",
-                        "endColumns": "80,79,69,68,94,90",
-                        "endOffsets": "263,343,413,482,577,668"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "328,413,497,571,644,743",
-                        "endColumns": "84,83,73,72,98,94",
-                        "endOffsets": "408,492,566,639,738,833"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\fe3e15e1f55c2ff346eca8f3048d702e\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\d2ea6ca6a210bbc344e2790795878b1f\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -48,7 +21,34 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.0.aar\\16af83d7fe19ff9cd0a8ea040652ee3f\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-11.0.0.aar\\b52f695e141b60e7839c6f0f5c477801\\res\\values-land\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "0,0,0,0,0,0",
+                        "startOffsets": "183,264,344,414,483,578",
+                        "endColumns": "80,79,69,68,94,90",
+                        "endOffsets": "263,343,413,482,577,668"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "328,413,497,571,644,743",
+                        "endColumns": "84,83,73,72,98,94",
+                        "endOffsets": "408,492,566,639,738,833"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\59a89b6feb2cffeba9251a7f6c701d5c\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.0.aar\\5c4f78d344a04af29f3c501f0af321c5\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

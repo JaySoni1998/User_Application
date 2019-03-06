@@ -42,6 +42,11 @@ import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
 import com.example.jayso.wheelersslotbooking.models.PlaceInfo;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
@@ -54,24 +59,39 @@ import com.google.android.gms.location.places.AutocompletePrediction;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.PlaceBuffer;
 import com.google.android.gms.location.places.Places;
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.Closeable;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MapActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback, GoogleApiClient.OnConnectionFailedListener {
+
+    private static final String KEY_PLACE_NO = "Place_No";
+    private static final String KEY_PLACE_NAME = "Parking_Place_Name";
+    private static final String KEY_ADDESS = "Address";
+    private static final String KEY_AREA_CODE = "Area_Code";
+    private static final String KEY_LETITUTE = "Latitude";
+    private static final String KEY_LONGITUDE = "Longitude";
 
     private long backPressedTime;
 
@@ -98,8 +118,87 @@ public class MapActivity extends AppCompatActivity
             mMap.setMyLocationEnabled(true);
             mMap.getUiSettings().setAllGesturesEnabled(true);
 
+            getLocation();
             init();
         }
+
+        //When Map Loads Successfully
+        mMap.setOnMapLoadedCallback(new GoogleMap.OnMapLoadedCallback() {
+            @Override
+            public void onMapLoaded() {
+                //Your code where exception occurs goes here...
+                List<LatLng> locations = new ArrayList<>();
+                locations.add(new LatLng(23.039327, 72.531411));
+                locations.add(new LatLng(23.046695, 72.530994));
+                locations.add(new LatLng(23.043966, 72.631519));
+                locations.add(new LatLng(23.118513, 72.624612));
+
+                for (LatLng latLng : locations) {
+                    mMap.addMarker(new MarkerOptions().position(latLng).title("Parking Place").icon(BitmapDescriptorFactory.fromResource(R.drawable.map_marker)));
+                }
+                //LatLngBound will cover all your marker on Google Maps
+                LatLngBounds.Builder builder = new LatLngBounds.Builder();
+                builder.include(locations.get(0)); //Taking Point A (First LatLng)
+                builder.include(locations.get(locations.size() - 1)); //Taking Point B (Second LatLng)
+                LatLngBounds bounds = builder.build();
+                CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds, 200);
+                mMap.moveCamera(cu);
+//                mMap.animateCamera(CameraUpdateFactory.zoomTo(14), 2000, null);
+            }
+        });
+
+    }
+
+
+    /*===============    get Place location     ==========================*/
+
+
+    private void getLocation() {
+
+
+        StringRequest stringRequest = new StringRequest(
+                Request.Method.GET,
+                Constants.URL_LOCATION,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+                            JSONObject obj = new JSONObject(response);
+                            if (!obj.getBoolean("error")) {
+                                JSONObject userData = obj.getJSONObject("user");
+
+                            } else {
+                                Toast.makeText(
+                                        getApplicationContext(),
+                                        obj.getString("message"),
+                                        Toast.LENGTH_LONG
+                                ).show();
+
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                            Log.d("Error", response);
+                            Toast.makeText(MapActivity.this, "json error", Toast.LENGTH_SHORT).show();
+                        }
+
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(MapActivity.this, "error", Toast.LENGTH_SHORT).show();
+                    }
+                }
+        ) /*{
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String, String> params = new HashMap<>();
+                params.put("Email_ID", email);
+                params.put("Password", pass);
+                return params;
+            }
+        }*/;
+        RequestHandler.getInstance(this).addToRequestQueue(stringRequest);
     }
 
 
@@ -113,7 +212,6 @@ public class MapActivity extends AppCompatActivity
         try {
 
 
-
             if (mLocationPermissionsGranted) {
                 final com.google.android.gms.tasks.Task<Location> location = mFusedLocationProviderClient.getLastLocation();
                 location.addOnCompleteListener(new OnCompleteListener<Location>() {
@@ -122,12 +220,11 @@ public class MapActivity extends AppCompatActivity
                         if (task.isSuccessful()) {
 
 
-
                             Log.d(TAG, "onComplete: found location!");
                             Location currentLocation = (Location) task.getResult();
                             String latitude = String.valueOf(currentLocation.getLatitude());
-                          String longitude = String.valueOf(currentLocation.getLongitude());
-                          //Toast.makeText(MapActivity.this, latitude + " - " + longitude, Toast.LENGTH_SHORT).show();
+                            String longitude = String.valueOf(currentLocation.getLongitude());
+                            //Toast.makeText(MapActivity.this, latitude + " - " + longitude, Toast.LENGTH_SHORT).show();
                             moveCamera(new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude()), DEFAULT_ZOOM, "My Location");
 
                         } else {
@@ -178,10 +275,11 @@ public class MapActivity extends AppCompatActivity
 
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, zoom));
 
-        if (!title.equals("MyLocation")) {
+        //Live Location Marker
+       /* if (!title.equals("MyLocation")) {
             MarkerOptions markerOptions = new MarkerOptions().position(latLng).title(title);
             mMap.addMarker(markerOptions);
-        }
+        }*/
         hideSoftKeyboard();
     }
 
@@ -221,6 +319,10 @@ public class MapActivity extends AppCompatActivity
     private static final int ERROR_DIALOG_REQUEST = 9001;
 
     //*map
+
+    ArrayList<HashMap<String, String>> location = new ArrayList<HashMap<String, String>>();
+    HashMap<String, String> map;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -229,6 +331,7 @@ public class MapActivity extends AppCompatActivity
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -469,10 +572,10 @@ public class MapActivity extends AppCompatActivity
             Intent it = new Intent(MapActivity.this, AboutUsActivity.class);
             startActivity(it);
         } else if (id == R.id.nav_signout) {
-            if(SharedPrefManager.getInstance(MapActivity.this).logout()){
+            if (SharedPrefManager.getInstance(MapActivity.this).logout()) {
                 Toast.makeText(this, "LogOut", Toast.LENGTH_SHORT).show();
                 AppPref.setValue("IS_LOGIN", "false", MapActivity.this);
-                startActivity(new Intent(MapActivity.this,LoginSignupActivity.class));
+                startActivity(new Intent(MapActivity.this, LoginSignupActivity.class));
                 //return;
             }
         }
@@ -490,7 +593,6 @@ public class MapActivity extends AppCompatActivity
         if (act.getCurrentFocus() != null)
             inputMethodManager.hideSoftInputFromWindow(act.getCurrentFocus().getWindowToken(), 0);
     }
-
 
 
     //    --------------------------- google places API autocomplete suggestions -----------------
