@@ -1,5 +1,6 @@
 package com.example.jayso.wheelersslotbooking;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -9,6 +10,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
@@ -35,8 +37,20 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.example.jayso.wheelersslotbooking.Constants.KEY_Owner_Type;
+import static com.example.jayso.wheelersslotbooking.Constants.KEY_V_Company;
+import static com.example.jayso.wheelersslotbooking.Constants.KEY_V_Model;
+import static com.example.jayso.wheelersslotbooking.Constants.KEY_V_Type;
+import static com.example.jayso.wheelersslotbooking.Constants.KEY_Vehicle_No;
+
 
 public class BookingActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+
+    public static String KEY_Vehicle_No = "V_No";
+    public static String KEY_V_Company = "V_Company";
+    public static String KEY_V_Model = "V_Model";
+    public static String KEY_V_Type = "V_Type";
+    public static String KEY_Owner_Type= "Owner_Type";
 
     private EditText VehicleNo, VehicleCompany, VehicleModel;
     private Spinner vehicle_type, v_type_spinner;
@@ -44,6 +58,7 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
 
     public static final String KEY_USER_ID = "U_ID";
     public TextView u_id;
+
 
     public String v_no = "";
     public String v_company = "";
@@ -63,11 +78,8 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
         hideSoftKeyboard();
 
         try {
-
             SharedPreferences userLogin = getApplicationContext().getSharedPreferences("mysharedpref12", getApplicationContext().MODE_PRIVATE);
             user_id = userLogin.getInt(KEY_USER_ID, 0);
-
-
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -225,4 +237,5 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
         };
         RequestHandler.getInstance(this).addToRequestQueue(stringRequest);
     }
+
 }

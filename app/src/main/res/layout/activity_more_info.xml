@@ -76,6 +76,7 @@
                         android:textSize="@dimen/_15sdp" />
 
                     <TextView
+                        android:id="@+id/txt_place_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
@@ -105,6 +106,8 @@
                         android:textSize="@dimen/_15sdp" />
 
                     <TextView
+                        android:id="@+id/txt_place_address"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
@@ -115,7 +118,7 @@
                         android:layout_marginBottom="@dimen/_5sdp"
                         android:layout_marginRight="@dimen/_10sdp"
                         android:layout_marginEnd="@dimen/_10sdp"
-                        android:text="Alpha One Mall, 261, Sarkari Vasahat Road, Vastrapur, Ahmedabad, Gujarat, 380006, India"
+                        android:text="Ahmedabad One Mall, 216, Vastrapur, Ahmedabad, Gujarat, India"
                         android:textColor="#000"
                         android:textAlignment="textEnd"
                         android:textSize="@dimen/_15sdp"
@@ -123,6 +126,66 @@
 
                 </RelativeLayout>
 
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="Pin Code :"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <TextView
+                        android:id="@+id/txt_areacode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="107dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginLeft="107dp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:text="380054"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_15sdp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+
+                    <View
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Slots"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:textColor="#000"/>
+
+                    <View
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="#000"/>
+                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -132,7 +195,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_10sdp"
-                        android:text="Contact No :"
+                        android:text="2 Wheeler :"
                         android:textColor="#000"
                         android:textSize="@dimen/_15sdp" />
 
@@ -147,7 +210,7 @@
                         android:layout_marginBottom="@dimen/_5sdp"
                         android:layout_marginRight="@dimen/_10sdp"
                         android:layout_marginEnd="@dimen/_10sdp"
-                        android:text="-"
+                        android:text="150"
                         android:textColor="#000"
                         android:textSize="@dimen/_15sdp" />
 
@@ -161,7 +224,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_10sdp"
-                        android:text="Total Plots :"
+                        android:text="3 Wheeler :"
                         android:textColor="#000"
                         android:textSize="@dimen/_15sdp" />
 
@@ -176,11 +239,46 @@
                         android:layout_marginBottom="@dimen/_5sdp"
                         android:layout_marginRight="@dimen/_10sdp"
                         android:layout_marginEnd="@dimen/_10sdp"
-                        android:text="80"
+                        android:text="100"
                         android:textColor="#000"
                         android:textSize="@dimen/_15sdp" />
 
                 </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="4 Wheeler :"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="107dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginLeft="107dp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:text="200"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_15sdp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="#000"/>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -205,11 +303,16 @@
                         android:layout_marginBottom="@dimen/_5sdp"
                         android:layout_marginRight="@dimen/_10sdp"
                         android:layout_marginEnd="@dimen/_10sdp"
-                        android:text="4"
+                        android:text="450"
                         android:textColor="#000"
                         android:textSize="@dimen/_15sdp" />
 
                 </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="#000"/>
 
             </LinearLayout>
 

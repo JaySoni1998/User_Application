@@ -94,6 +94,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     return;
                 } else {
                     userLogin();
+
                 }
             }
 
@@ -135,7 +136,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                             if (!obj.getBoolean("error")) {
                                 JSONObject userData = obj.getJSONObject("user");
                                 Toast.makeText(LoginActivity.this, "User Login Success", Toast.LENGTH_SHORT).show();
-//
                                 AppPref.setValue("IS_LOGIN", "true",getApplicationContext());
 
                                 SharedPreferences userLogin = getApplicationContext().getSharedPreferences("mysharedpref12", getApplicationContext().MODE_PRIVATE);

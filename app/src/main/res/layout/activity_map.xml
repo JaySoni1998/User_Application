@@ -37,20 +37,17 @@
             android:orientation="horizontal">
 
 
-            <AutoCompleteTextView
+            <TextView
                 android:id="@+id/search_location"
                 android:layout_width="290dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginBottom="5dp"
-                android:hint="Search Location"
-                android:imeOptions="actionSearch"
-                android:inputType="text"
+                android:text="Select Location"
                 android:paddingLeft="5dp"
-                android:src="@drawable/search_icon"
-                android:textColor="#fff"
-                android:textColorHint="#e1e1e1" />
+                android:textSize="@dimen/_18sdp"
+                android:textColor="#ffffff" />
 
         </LinearLayout>
 

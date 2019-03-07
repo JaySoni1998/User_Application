@@ -18,6 +18,7 @@ import android.location.Location;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
+import android.support.design.widget.BottomSheetBehavior;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
@@ -38,6 +39,7 @@ import android.widget.AdapterView;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -73,6 +75,7 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -118,7 +121,7 @@ public class MapActivity extends AppCompatActivity
             mMap.setMyLocationEnabled(true);
             mMap.getUiSettings().setAllGesturesEnabled(true);
 
-            getLocation();
+//            getLocation();
             init();
         }
 
@@ -127,14 +130,17 @@ public class MapActivity extends AppCompatActivity
             @Override
             public void onMapLoaded() {
                 //Your code where exception occurs goes here...
-                List<LatLng> locations = new ArrayList<>();
+
+                getLocation();
+                /*List<LatLng> locations = new ArrayList<>();
                 locations.add(new LatLng(23.039327, 72.531411));
                 locations.add(new LatLng(23.046695, 72.530994));
                 locations.add(new LatLng(23.043966, 72.631519));
                 locations.add(new LatLng(23.118513, 72.624612));
 
                 for (LatLng latLng : locations) {
-                    mMap.addMarker(new MarkerOptions().position(latLng).title("Parking Place").icon(BitmapDescriptorFactory.fromResource(R.drawable.map_marker)));
+                    mMap.addMarker(new MarkerOptions().position(latLng).title("Alpha One Mall" +
+                            "").icon(BitmapDescriptorFactory.fromResource(R.drawable.map_marker)));
                 }
                 //LatLngBound will cover all your marker on Google Maps
                 LatLngBounds.Builder builder = new LatLngBounds.Builder();
@@ -142,7 +148,7 @@ public class MapActivity extends AppCompatActivity
                 builder.include(locations.get(locations.size() - 1)); //Taking Point B (Second LatLng)
                 LatLngBounds bounds = builder.build();
                 CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds, 200);
-                mMap.moveCamera(cu);
+                mMap.moveCamera(cu);*/
 //                mMap.animateCamera(CameraUpdateFactory.zoomTo(14), 2000, null);
             }
         });
@@ -165,7 +171,75 @@ public class MapActivity extends AppCompatActivity
                         try {
                             JSONObject obj = new JSONObject(response);
                             if (!obj.getBoolean("error")) {
-                                JSONObject userData = obj.getJSONObject("user");
+//                                JSONObject locData = obj.getJSONObject("location");
+
+                                final JSONArray jsonArray = obj.getJSONArray("location");
+
+//                                            List<LatLng> locations = new ArrayList<>();
+                                try {
+                                    LatLngBounds.Builder builder = new LatLngBounds.Builder();
+
+                                    for (int i = 0; i < jsonArray.length(); i++) {
+                                        JSONObject locData = jsonArray.getJSONObject(i);
+
+
+
+                                        LatLng latLng = new LatLng(Double.parseDouble(locData.getString("Latitude").toString()),
+                                                Double.parseDouble(locData.getString("Longitude").toString()));
+
+
+
+                                        mMap.addMarker(new MarkerOptions().position(latLng).
+                                                title("" + locData.getString("Parking_Place_Name"))
+                                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.map_marker)));
+
+                                        builder.include(latLng);
+                                    }
+
+                                    try {
+
+                                        View view = findViewById(R.id.bottom_sheet_show_loc);
+                                        final TextView place_address = view.findViewById(R.id.place_address);
+                                        final TextView main_location = view.findViewById(R.id.main_location);
+
+                                        mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+                                            @Override
+                                            public boolean onMarkerClick(Marker marker) {
+
+                                                for (int x = 0; x < jsonArray.length(); x++) {
+                                                    try {
+                                                        JSONObject locData1 = jsonArray.getJSONObject(x);
+                                                        if (locData1.getString("Parking_Place_Name").equals(marker.getTitle())) {
+                                                            main_location.setText(locData1.getString("Parking_Place_Name"));
+                                                            place_address.setText(locData1.getString("Address"));
+
+                                                            mPlace = new PlaceInfo();
+//                                                            mPlace.setLatlng(latLng);
+                                                            mPlace.setAddress(locData1.getString("Address"));
+                                                            mPlace.setName(locData1.getString("Parking_Place_Name"));
+                                                            mPlace.setPin(locData1.getString("Area_Code"));
+                                                        }
+                                                    } catch (Exception e) {
+                                                        e.printStackTrace();
+                                                    }
+                                                }
+                                                return false;
+                                            }
+                                        });
+
+
+                                    } catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
+
+
+                                    LatLngBounds bounds = builder.build();
+                                    CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds, 12);
+                                    mMap.moveCamera(cu);
+
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }
 
                             } else {
                                 Toast.makeText(
@@ -173,6 +247,7 @@ public class MapActivity extends AppCompatActivity
                                         obj.getString("message"),
                                         Toast.LENGTH_LONG
                                 ).show();
+
 
                             }
                         } catch (JSONException e) {
@@ -200,7 +275,6 @@ public class MapActivity extends AppCompatActivity
         }*/;
         RequestHandler.getInstance(this).addToRequestQueue(stringRequest);
     }
-
 
 
     private void getDeviceLocation() {
@@ -255,7 +329,7 @@ public class MapActivity extends AppCompatActivity
 
                 MarkerOptions options = new MarkerOptions()
                         .position(latLng)
-                        .title(placeInfo.getName());
+                        .title(placeInfo.getName()).icon(BitmapDescriptorFactory.fromResource(R.drawable.map_marker));
 //                        .snippet(snippet);
                 mMarker = mMap.addMarker(options);
 
@@ -327,7 +401,7 @@ public class MapActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
-        mSearchText = findViewById(R.id.search_location);
+//        mSearchText = findViewById(R.id.search_location);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -357,13 +431,18 @@ public class MapActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(MapActivity.this, MoreInfoActivity.class);
+
+                it.putExtra("NAME",mPlace.getName());
+                it.putExtra("ADDRESS",mPlace.getAddress());
+                it.putExtra("PIN",mPlace.getPin());
+
                 startActivity(it);
 
             }
         });
 
 
-        if (isServicesOK()) init();
+//        if (isServicesOK()) init();
 
         getLocationPermission(); //map
 
@@ -433,7 +512,7 @@ public class MapActivity extends AppCompatActivity
                     .enableAutoManage(this, this)
                     .build();
 
-            mSearchText.setOnItemClickListener(mAutocompleteClickListener);
+//            mSearchText.setOnItemClickListener(mAutocompleteClickListener);
 
         } else {
             //Toast.makeText(this, "Search your parking place", Toast.LENGTH_LONG).show();
@@ -441,11 +520,11 @@ public class MapActivity extends AppCompatActivity
 
         hideSoftKeyboard();
 
-        mPlaceAutocompleteAdapter = new PlaceAutocompleteAdapter(this, mGoogleApiClient, LAT_LNG_BOUNDS, null);
+//        mPlaceAutocompleteAdapter = new PlaceAutocompleteAdapter(this, mGoogleApiClient, LAT_LNG_BOUNDS, null);
 
-        mSearchText.setAdapter(mPlaceAutocompleteAdapter);
+//        mSearchText.setAdapter(mPlaceAutocompleteAdapter);
 
-        mSearchText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+        /*mSearchText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
 
@@ -458,7 +537,7 @@ public class MapActivity extends AppCompatActivity
                 return false;
             }
         });
-        hideSoftKeyboard();
+        hideSoftKeyboard();*/
     }
 
     private void geoLocation() {
@@ -481,7 +560,6 @@ public class MapActivity extends AppCompatActivity
             moveCamera(new LatLng(address.getLatitude(), address.getLongitude()), DEFAULT_ZOOM, address.getAddressLine(0));
         }
     }
-
     public boolean isServicesOK() {
         Log.d(TAG, "isServicesOK: cheking google services versoin ");
         int avalable = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(MapActivity.this);
@@ -498,7 +576,6 @@ public class MapActivity extends AppCompatActivity
         }
         return false;
     }
-
     //*map
 
     @Override

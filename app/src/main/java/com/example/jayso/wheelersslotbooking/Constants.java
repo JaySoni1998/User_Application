@@ -8,6 +8,7 @@ public class Constants {
     public static final String Vehicle_details = ROOT_URL + "UserVehicledetails.php";
     public static final String feedback = ROOT_URL + "Feedback.php";
     public static final String parking_charges = ROOT_URL + "Parking_Charges.php";
+    public static final String location = ROOT_URL + "Location.php";
 
     public static String KEY_Vehicle_No = "V_No";
     public static String KEY_V_Company = "V_Company";

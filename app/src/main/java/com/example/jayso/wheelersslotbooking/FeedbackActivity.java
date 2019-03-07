@@ -3,6 +3,7 @@ package com.example.jayso.wheelersslotbooking;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,14 +30,24 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
 
     private EditText userFeedbackReview;
     private Button SubmitFeed;
+    public static final String KEY_USER_ID = "U_ID";
 
     public String review = "";
+    int user_id = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
 
         hideSoftKeyboard();
+
+        try {
+            SharedPreferences userLogin = getApplicationContext().getSharedPreferences("mysharedpref12", getApplicationContext().MODE_PRIVATE);
+            user_id = userLogin.getInt(KEY_USER_ID, 0);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         RatingBar rb = findViewById(R.id.Rating_bar);
         rb.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
@@ -48,14 +59,12 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
 
         userFeedbackReview = findViewById(R.id.et_review_feedback);
 
-
         findViewById(R.id.feedback_submit).setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
 
                 review = userFeedbackReview.getText().toString();
-
 
                 if (review.length() == 0) {
                     Toast.makeText(FeedbackActivity.this, "Please Insert Your Feedback", Toast.LENGTH_SHORT).show();
@@ -64,7 +73,6 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
                 }
             }
         });
-
         Button btnback = findViewById(R.id.btn_back);
         btnback.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,7 +80,6 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
                 onBackPressed();
             }
         });
-
     }
 
 
@@ -107,11 +114,10 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
                 params.put("Review",review );
-
-                Log.d("Feedback",review);
+                params.put("U_ID", ""+user_id);
+//                Log.d("Feedback",review);
                 return params;
             }
-
         };
         RequestHandler.getInstance(this).addToRequestQueue(stringRequest);
     }

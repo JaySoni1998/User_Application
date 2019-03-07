@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/bottom_sheet"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -20,27 +21,65 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_47sdp"
             android:layout_gravity="center"
-            android:background="#273b44">
+            android:orientation="horizontal"
+            android:background="@drawable/bottom_sheet_title_bg">
 
-            <ImageView
-                android:layout_width="@dimen/_20sdp"
-                android:layout_height="@dimen/_25sdp"
-                android:layout_gravity="center|start"
-                android:layout_marginLeft="@dimen/_20sdp"
-                android:src="@drawable/location" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/main_location"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|end"
-                android:layout_marginLeft="@dimen/_15sdp"
-                android:hint="Location Name"
-                android:maxLines="1"
-                android:textColor="#fff"
-                android:textColorHint="#fff"
-                android:textSize="@dimen/_15sdp"
-                android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center|start"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="14dp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:id="@+id/main_location"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center|end"
+                    android:layout_marginStart="57dp"
+                    android:layout_marginLeft="57dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="121dp"
+                    android:layout_marginRight="121dp"
+                    android:maxLines="1"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center|start"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="14dp"
+                    android:src="@drawable/swipe_up" />
+
+            </RelativeLayout>
+
+
 
         </LinearLayout>
     </android.support.v7.widget.CardView>

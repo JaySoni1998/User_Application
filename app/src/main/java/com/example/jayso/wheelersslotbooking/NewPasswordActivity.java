@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -15,7 +16,7 @@ import android.widget.Toast;
 public class NewPasswordActivity extends AppCompatActivity {
 
     private EditText passEditText, confirmPassEditText;
-    private CheckBox passShow;
+
 
 
     @Override
@@ -26,18 +27,31 @@ public class NewPasswordActivity extends AppCompatActivity {
         passEditText = findViewById(R.id.et_new_pass);
         confirmPassEditText = findViewById(R.id.et_new_con_pass);
 
-       /* passShow.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
+        CheckBox repeatChkBx = ( CheckBox ) findViewById( R.id.cb_check_box );
+
+        repeatChkBx.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
             @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean value) {
-                if(value){
-                    passEditText.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
-                    confirmPassEditText.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
-                } else {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(!isChecked){
+
+                    // show password
                     passEditText.setTransformationMethod(PasswordTransformationMethod.getInstance());
                     confirmPassEditText.setTransformationMethod(PasswordTransformationMethod.getInstance());
+
+                    Log.i("checker", "true");
                 }
+
+                else{
+                    Log.i("checker", "false");
+
+                    // hide password
+                    passEditText.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                    confirmPassEditText.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                }
+
             }
-        });*/
+        });
 
 
         findViewById(R.id.btn_change_pass_submit).setOnClickListener(new View.OnClickListener() {

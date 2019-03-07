@@ -10,6 +10,7 @@ public class PlaceInfo {
     private String address;
     private String phoneNumber;
     private String id;
+    private String pin;
     private Uri websiteUri;
     private LatLng latlng;
     private float rating;
@@ -24,11 +25,20 @@ public class PlaceInfo {
         this.websiteUri = websiteUri;
         this.latlng = latlng;
         this.rating = rating;
+        this.rating = rating;
         this.attributions = attributions;
     }
 
     public PlaceInfo() {
 
+    }
+
+    public String getPin() {
+        return pin;
+    }
+
+    public void setPin(String pin) {
+        this.pin = pin;
     }
 
     public String getName() {

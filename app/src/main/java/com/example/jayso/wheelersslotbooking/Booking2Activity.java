@@ -6,9 +6,11 @@ import android.app.TimePickerDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -44,6 +46,8 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.example.jayso.wheelersslotbooking.Constants.KEY_Vehicle_No;
+
 public class Booking2Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     Dialog myDialog;
@@ -51,6 +55,11 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
     private PopupWindow popupWindow;
     private LinearLayout linearLayoutBooking;
     private TextView start_time_picker, end_time_picker;
+
+    public static final String KEY_USER_ID = "U_ID";
+//    public static final String KEY_USER_ = "U_ID";
+    int user_id = 0;
+    String v_no = null;
 
     public String startingTime = "";
     public String endTime = "";
@@ -61,6 +70,14 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
         setContentView(R.layout.activity_booking2);
 
         hideSoftKeyboard();
+
+        try {
+            SharedPreferences userLogin = getApplicationContext().getSharedPreferences("mysharedpref12", getApplicationContext().MODE_PRIVATE);
+            user_id = userLogin.getInt(KEY_USER_ID, 0);
+            v_no = userLogin.getString(KEY_Vehicle_No, null);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         start_time_picker = findViewById(R.id.start_time_picker);
         end_time_picker = findViewById(R.id.end_time_picker);
@@ -87,11 +104,11 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
                             hh = "12";
                         }
                         String time = setZero(hh) + ":" + setZero("" + calendar.get(Calendar.MINUTE)) + " "
-                                + ((calendar.get(Calendar.AM_PM) == Calendar.AM) ? "PM" : "AM");
+                                + ((calendar.get(Calendar.AM_PM) == Calendar.AM) ? "AM" : "PM");
                         starttime.setText(time);
 //                        starttime.setText(selectedHour + ":" + selectedMiniute+timePicker);
                         startingTime = starttime.getText().toString();
-                        Toast.makeText(getApplicationContext(), selectedHour + "  " + selectedMiniute, Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(getApplicationContext(), selectedHour + "  " + selectedMiniute, Toast.LENGTH_SHORT).show();
                     }
                 }, hour, minute, false);
                 mTimePicker.setTitle("Select Time");
@@ -121,12 +138,12 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
                             hh = "12";
                         }
                         String time = setZero(hh) + ":" + setZero("" + calendar.get(Calendar.MINUTE)) + " "
-                                + ((calendar.get(Calendar.AM_PM) == Calendar.AM) ? "PM" : "AM");
+                                + ((calendar.get(Calendar.AM_PM) == Calendar.AM) ? "AM" : "PM");
 
                         endtime.setText(time);
 //                        endtime.setText(selectedHour + ":" + selectedMiniute);
                         endTime = endtime.getText().toString();
-                        Toast.makeText(getApplicationContext(), selectedHour + "  " + selectedMiniute, Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(getApplicationContext(), selectedHour + "  " + selectedMiniute, Toast.LENGTH_SHORT).show();
                     }
                 }, hour, minute, false);
                 mTimePicker.setTitle("Select Time");
@@ -185,7 +202,6 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
         });
 
     }
-
 
     public String setZero(String val) {
 
@@ -266,6 +282,7 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
 
                         try {
                             Log.d("Response", response);
+                            addNotification();
                             Toast.makeText(Booking2Activity.this, "Success", Toast.LENGTH_SHORT).show();
                             JSONObject jsonObject = new JSONObject(response);
                             Toast.makeText(getApplicationContext(), jsonObject.getString("message"), Toast.LENGTH_LONG).show();
@@ -283,6 +300,7 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
                                         }
                                     });
                             alertDialog.show();
+
 
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -303,6 +321,8 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
                 Map<String, String> params = new HashMap<>();
                 params.put("In_Time", startingTime);
                 params.put("Out_Time", endTime);
+                params.put("U_ID", ""+user_id);
+                params.put("V_No", v_no);
 
                 Log.d("In_Time", startingTime);
                 Log.d("Out_Time", endTime);
@@ -314,6 +334,16 @@ public class Booking2Activity extends AppCompatActivity implements AdapterView.O
         };
         RequestHandler.getInstance(this).addToRequestQueue(stringRequest);
 
+
+    }
+
+    //notification
+    private void addNotification() {
+        NotificationCompat.Builder builder =
+                new NotificationCompat.Builder(this)
+                        .setSmallIcon(R.drawable.logo)
+                        .setContentTitle("Wheeler Slot Booking")
+                        .setContentText("Your Booking is Successfully Done");
 
     }
 }

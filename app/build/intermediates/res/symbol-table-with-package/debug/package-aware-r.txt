@@ -1670,6 +1670,7 @@ drawable avd_show_password
 drawable bg_edit_text
 drawable booking
 drawable bottom_sheet_bg
+drawable bottom_sheet_title_bg
 drawable btn
 drawable cast_abc_scrubber_control_off_mtrl_alpha
 drawable cast_abc_scrubber_control_to_pressed_mtrl_000
@@ -2030,6 +2031,7 @@ drawable side_nav_bar
 drawable sign_out
 drawable smiley
 drawable splash_screen
+drawable swipe_up
 drawable timeline
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2450,6 +2452,9 @@ id tv_v_model
 id tv_v_no
 id tv_v_owner_type
 id tv_v_type
+id txt_areacode
+id txt_place_address
+id txt_place_name
 id txtdesc
 id txttitle
 id uniform

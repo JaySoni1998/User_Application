@@ -828,6 +828,10 @@
         "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\d2ea6ca6a210bbc344e2790795878b1f\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_14_dark.png"
     },
     {
+        "merged": "E:\\Wheelers Slot Booking System\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_swipe_up.png.flat",
+        "source": "E:\\Wheelers Slot Booking System\\Application\\app\\src\\main\\res\\drawable\\swipe_up.png"
+    },
+    {
         "merged": "E:\\Wheelers Slot Booking System\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.0.aar\\fa438df23cffaa74fb4305a775584f51\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
@@ -2214,6 +2218,10 @@
     {
         "merged": "E:\\Wheelers Slot Booking System\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_powered_by_google_light.png.flat",
         "source": "C:\\Users\\jayso\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-11.0.0.aar\\96c03ac29ef890f9702b76f428892565\\res\\drawable-xxxhdpi-v4\\powered_by_google_light.png"
+    },
+    {
+        "merged": "E:\\Wheelers Slot Booking System\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_sheet_title_bg.xml.flat",
+        "source": "E:\\Wheelers Slot Booking System\\Application\\app\\src\\main\\res\\drawable\\bottom_sheet_title_bg.xml"
     },
     {
         "merged": "E:\\Wheelers Slot Booking System\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_quantum_ic_replay_30_white_24.png.flat",

@@ -92,29 +92,9 @@
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/_10sdp">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="@dimen/_10sdp"
-                                android:textColor="#000000"
-                                android:text="Total Slot Available :" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentEnd="true"
-                                android:layout_alignParentRight="true"
-                                android:textColor="#000000"
-                                android:layout_margin="@dimen/_10sdp"
-                                android:text="40" />
-
-                        </RelativeLayout>
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginRight="@dimen/_10sdp">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -137,7 +117,9 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginRight="@dimen/_10sdp">
 
                             <TextView
                                 android:layout_width="wrap_content"
